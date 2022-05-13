@@ -1,5 +1,5 @@
 {
-  "name": "fullstack-crud-app",
+  "name": "fullstack-crud-app-server",
   "version": "1.0.0",
   "description": "server for final crud project",
   "main": "app.js",
