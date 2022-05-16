@@ -32,9 +32,12 @@ const app = express();
 const apiRouter = require('./routes');
 
 
+
 //initialize express server
+const cors = require('cors')
 const configureApp = async () => {
   // handle request data
+  app.use(cors());
   app.use(express.json());
   app.use(express.urlencoded({ extended: false }));
   //ignore browser requests for favicon file
