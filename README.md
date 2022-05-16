@@ -78,10 +78,6 @@ State management (Redux)
 - [x] Write a courses sub-reducer to manage courses in your Redux store
 
 
-UI (React)
-- [ ] Write a component to display a list of all instructors (just their names and images) 
-- [x] Write a component to display a list of all courses (just their names)
-
 
 Client-side routing (React-Router)
 - [ ] Display the all-instructors component when the url matches `/instructors`
@@ -95,16 +91,6 @@ Single course and Single instructor
 API (Express, Sequelize)
  - [x] Write a route to serve up a single instructor (based on their id), including that instructor’s courses
  - [x] Write a route to serve up a single course (based on its id), including that course's instructor
-
-
-UI (React)
-- [ ] Write a component to display a single instructor with the following information:  
-- [ ] The instructor's name, image, and department
-- [ ] A list of all courses that instructor is assigned 
-- [ ] Write a component to display a single course with the following information:   
-- [ ] The course title, timeslot, and location
-- [ ] The name of the instructor 
-
 
 
 
@@ -125,20 +111,6 @@ API (Express, Sequelize)
 - [x] Write a route to edit a new course  
 
 
-UI (React) 
-- [ ] Write a component to display a form for editing an instructor’s information
-- [ ] Display this component EITHER as part of the single-instructor view, or as its own view
- - [ ] Submitting the form with should:   
-- [ ] Make a request that causes the instructor to be updated in the database   
-- [ ] Display the updates without needing to refresh the page  
-
-
-- [ ] Write a component to display a form for editing a course
-- [ ] Display this component EITHER as part of the single-course view, or as its own view
- - [ ] Submitting the form with a should:   
-- [ ] Make a request that causes the course to be updated in the database   
-- [ ] Display the updates without needing to refresh the page  
-
 
 Adding course and Adding instructor
 
@@ -148,35 +120,8 @@ API (Express, Sequelize)
 - [ ] Write a route to add a new course  
 
 
-UI (React ) 
-- [ ] Write a component to display a form for adding a new instructor that contains inputs for at least the name and address. 
-- [ ] Display this component EITHER as part of the all-instructors view, or as its own view
- - [ ] Submitting the form with a valid name/address should:   
-- [ ] Make a request that causes the new instructor to be persisted in the database   
-- [ ] Add the new instructor to the list of instructors without needing to refresh the page  
-
-
-- [ ] Write a component to display a form for adding a new course that contains inputs for at least first name, last name and email 
-- [ ] Display this component EITHER as part of the all-courses view, or as its own view
- - [ ] Submitting the form with a valid first name/last name/email should:   
-- [ ] Make a request that causes the new course to be persisted in the database   
-- [ ] Add the new course to the list of courses without needing to refresh the page  
-
-
-Removing a instructor and Removing a course
-
 
 API (Express, Sequelize) 
 - [x] Write a route to remove a instructor (based on its id) 
 - [x] Write a route to remove a course (based on their id)  
 
-
-UI (React)
-- [ ] In the all-instructors view, include an `X` button next to each instructor 
-- [ ] Clicking the `X` button should:   
-- [ ] Make a request that causes that instructor to be removed from database   
-- [ ] Remove the instructor from the list of instructors without needing to refresh the page  
-- [ ] In the all-courses view, include an `X` button next to each course
-- [ ] Clicking the `X` button should:   
-- [ ] Make a request that causes that course to be removed from database   
-- [ ] Remove the course from the list of courses without needing to refresh the page
